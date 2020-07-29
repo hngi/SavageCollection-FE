@@ -31,7 +31,10 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px 20px;
-
 }
 
+
 /* footer */
+footer {
+    background-color: var(--sr-blue);
+}
