@@ -23,7 +23,9 @@ img {
 }
 
 /* welcome */
-
+#welcome {
+    height: 60vh;
+}
 
 /* images display */
 
@@ -40,12 +42,15 @@ footer {
 }
 
 @media only screen and (max-width: 330px) {
-    #logo {
-        font-size: 20px;
-    }
     .grid-box {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         gap: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #logo {
+        font-size: 20px;
     }
 }
