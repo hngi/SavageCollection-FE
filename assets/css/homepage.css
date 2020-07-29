@@ -38,3 +38,14 @@ img {
 footer {
     background-color: var(--sr-blue);
 }
+
+@media only screen and (max-width: 330px) {
+    #logo {
+        font-size: 20px;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 10px 20px;
+    }
+}
