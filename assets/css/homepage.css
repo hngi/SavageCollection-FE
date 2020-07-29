@@ -1,0 +1,37 @@
+:root {
+    --sr-black: black;
+    --sr-blue: #262b48;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+img {
+    object-fit: cover;
+    object-position: top;
+}
+
+/* nav bar */
+#logo {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 40px;
+}
+
+/* welcome */
+
+
+/* images display */
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px 20px;
+
+}
+
+/* footer */
