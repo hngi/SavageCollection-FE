@@ -27,12 +27,19 @@ img {
     height: 60vh;
 }
 
+/* how it works */
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px 20px;
+}
+
 /* images display */
 
 .grid-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px 20px;
+    gap: 20px 20px;
 }
 
 
