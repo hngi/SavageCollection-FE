@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Lemon Jelly';
+  src: url("../fonts/LemonJellyPersonalUse-dEqR.ttf");
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
 
 body {
   padding: 2rem 0;
@@ -7,10 +15,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato', sans-serif;
 }
 
 #login {
   width: 50%;
+}
+
+.logo .brand {
+  font-family: 'Lemon Jelly';
+  font-size: 100px;
+}
+
+.logo .brand:hover {
+  text-decoration: none;
 }
 
 .logo, .form {
@@ -55,7 +73,7 @@ body {
 
 #show_hide_password a {
   position: absolute;
-  color: #d1d1d1;
+  color: #b6b5b5;
   right: 0;
   top: 15px;
 }
@@ -77,5 +95,20 @@ button {
 @media (max-width: 450px) {
   #login {
     width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  .form-group.form-check {
+    padding-left: 0;
+  }
+
+  .check-wrap {
+    padding-left: .9rem;
+  }
+
+  .login-options {
+    flex-direction: column;
+    text-align: center;
   }
 }
