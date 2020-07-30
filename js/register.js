@@ -14,14 +14,5 @@
         a(this).hasClass("fa-eye")
           ? a(e).attr("type", "text")
           : a(e).attr("type", "password");
-    }),
-    a("#forget-lnk").on("click", function () {
-      a(".authfy-login .nav-tabs").find("li").removeClass("active");
-    }),
-    a(window).on("load", function () {
-      a(".square-block").fadeOut(),
-        a("#preload-block").fadeOut("slow", function () {
-          a(this).remove();
-        });
     });
 })(jQuery);
