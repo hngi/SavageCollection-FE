@@ -39,7 +39,7 @@ nav {
 /* welcome */
 #welcome {
     height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/homepage.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/homepage.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
