@@ -12,6 +12,10 @@
 	box-sizing: border-box;
 }
 
+header #navi .nav-link {
+	color: #fff !important;
+}
+
 body {
 	font-family: var(--font-stack);
 	color: #000;
@@ -44,6 +48,10 @@ h2 {
 
 h3 {
 	font-size: 32px;
+}
+
+.current {
+	text-decoration: underline;
 }
 
 /* ==========================================================================================
@@ -86,7 +94,7 @@ header {
 	font-size: 18px;
 }
 
-header nav .current {
+header .navbar-dark .navbar-nav .current {
 	border-bottom: 2px solid var(--base-color);
 }
 
@@ -211,6 +219,9 @@ footer p {
 		margin-top: 1rem !important;
 	}
 }
+
+/* To Combat the issue of overflowing header,for conformity */
+
 
 @media (max-width: 1000px) {
 	#first {
