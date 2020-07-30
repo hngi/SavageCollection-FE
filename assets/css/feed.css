@@ -55,13 +55,25 @@ footer {
   margin: 30px auto;
 }
 
-.savage-feed .savage-feed-button button {
+.savage-feed .page-item.active .page-link, .savage-feed .page-item.active .page-link:focus {
   background-color: var(--sc-blue);
   color: #ffffff;
-  text-align: center;
-  width: 150px;
-  padding: 10px;
-  border-radius: 30px;
+  border: 1px solid var(--sc-blue);
+}
+
+.savage-feed .page-item .page-link:hover {
+  background-color: var(--sc-blue);
+  color: #ffffff;
+  border: 1px solid var(--sc-blue);
+  cursor: pointer;
+}
+
+.savage-feed nav {
+  background-color: #ffffff;
+}
+
+.savage-feed nav li a {
+  color: var(--sc-blue);
 }
 
 
