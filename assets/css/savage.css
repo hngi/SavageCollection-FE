@@ -2,7 +2,7 @@
 	--base-color: rgb(38, 43, 72) !important;
 	--primary-color: #262b48 !important;
 	--secondary-color: #262b48 !important;
-	--font-stack: "Poppins", sans-serif;
+	--font-stack: 'Roboto', sans-serif;
 	--font-body-size: 21px;
 }
 
