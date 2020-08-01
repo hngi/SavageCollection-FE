@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Lemon Jelly";
+  src: url("../fonts/LemonJellyPersonalUse-dEqR.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav bar */
+
+#nav {
+background: #2F1893;
+}
+
+
+#nav li {
+  margin-right: 2rem;
+}
+
+
+.logo {
+  font-family: 'Lemon Jelly' !important;
+  font-size: 80px !important;
+}
+
+.savage-feed-heading h2 {
+  font-size: 40px;
+/*    font-weight: 600;
+*/    color: #28157a;
+}
+
+/* footer */
+#footer {
+  background-color: #28157a;
+  color: #fff;
+
+   position: relative;
+    height: 100px;
+  /*  margin-top: -200px;*/
+}
+
+.btn.action-2 {
+    background-color: #482be7;
+    color: #fff;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.savage-feed {
+  margin-top: 5vh;
+}
+
+.savage-feed .savage-feed-heading {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Lemon Jelly';
+}
+
+.savage-feed .savage-img-box img {
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.savage-feed .savage-feed-button {
+  margin: 30px auto;
+}
+
+.savage-feed .page-item.active .page-link, .savage-feed .page-item.active .page-link:focus {
+  color: #ffffff;
+  border: 1px solid #28157a;
+}
+
+.savage-feed .page-item .page-link:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+  #logo {
+      font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  #logo {
+      font-size: 50px;
+  }
+}
