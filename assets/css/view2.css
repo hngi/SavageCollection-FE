@@ -23,7 +23,7 @@ background: #2F1893;
 
 .logo {
   font-family: 'Lemon Jelly' !important;
-  font-size: 70px;
+  font-size: 80px !important;
 }
 
 .savage-feed-heading h2 {
@@ -36,6 +36,17 @@ background: #2F1893;
 #footer {
   background-color: #28157a;
   color: #fff;
+
+   position: relative;
+    height: 100px;
+  /*  margin-top: -200px;*/
+}
+
+.btn.action-2 {
+    background-color: #482be7;
+    color: #fff;
+    border-radius: 25px;
+    width: 50%;
 }
 
 .savage-feed {
